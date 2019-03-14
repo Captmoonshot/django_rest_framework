@@ -4,12 +4,12 @@
 
 {% for book in object_list %}
 
-	<u>
+	<ul>
 		<li>Title: {{ book.title }}</li>
 		<li>Subtitle: {{ book.subtitle }}</li>
 		<li>Author: {{ book.author }}</li>
 		<li>ISBN: {{ book.isbn }}</li>
-	</u>
+	</ul>
 
 {% endfor %}
 
